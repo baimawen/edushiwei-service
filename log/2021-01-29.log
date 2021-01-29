@@ -1,0 +1,24 @@
+[EDU-SHIWEI]2021/01/29 - 13:48:40.018	[31merror[0m	E:/golang-workspace/src/edushiwei-service/initialize/gorm.go:35	MySQL启动异常	{"err": "dial tcp 192.168.229.129:3306: connectex: No connection could be made because the target machine actively refused it."}
+[EDU-SHIWEI]2021/01/29 - 13:49:07.874	[31merror[0m	E:/golang-workspace/src/edushiwei-service/initialize/gorm.go:35	MySQL启动异常	{"err": "Error 1049: Unknown database 'edushiwei'"}
+[EDU-SHIWEI]2021/01/29 - 13:53:56.977	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/gorm.go:75	register table success
+[EDU-SHIWEI]2021/01/29 - 14:03:08.054	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/gorm.go:93	register table success
+[EDU-SHIWEI]2021/01/29 - 14:03:27.207	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/gorm.go:93	register table success
+[EDU-SHIWEI]2021/01/29 - 14:03:58.004	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/gorm.go:93	register table success
+[EDU-SHIWEI]2021/01/29 - 14:58:17.730	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/gorm.go:93	register table success
+[EDU-SHIWEI]2021/01/29 - 14:58:17.775	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:17	use middlerware logger
+[EDU-SHIWEI]2021/01/29 - 14:58:17.775	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:20	use middleware cors
+[EDU-SHIWEI]2021/01/29 - 14:58:17.777	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:22	register swagger handler
+[EDU-SHIWEI]2021/01/29 - 14:58:17.779	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:33	router register success
+[EDU-SHIWEI]2021/01/29 - 14:58:17.781	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/core/server.go:28	server run success on 	{"address": ":8010"}
+[EDU-SHIWEI]2021/01/29 - 14:59:17.223	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/gorm.go:93	register table success
+[EDU-SHIWEI]2021/01/29 - 14:59:17.231	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:17	use middlerware logger
+[EDU-SHIWEI]2021/01/29 - 14:59:17.231	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:20	use middleware cors
+[EDU-SHIWEI]2021/01/29 - 14:59:17.231	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:22	register swagger handler
+[EDU-SHIWEI]2021/01/29 - 14:59:17.231	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:33	router register success
+[EDU-SHIWEI]2021/01/29 - 14:59:17.232	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/core/server.go:28	server run success on 	{"address": ":8080"}
+[EDU-SHIWEI]2021/01/29 - 15:00:35.459	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/gorm.go:93	register table success
+[EDU-SHIWEI]2021/01/29 - 15:00:35.467	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:17	use middlerware logger
+[EDU-SHIWEI]2021/01/29 - 15:00:35.467	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:20	use middleware cors
+[EDU-SHIWEI]2021/01/29 - 15:00:35.468	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:22	register swagger handler
+[EDU-SHIWEI]2021/01/29 - 15:00:35.468	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:33	router register success
+[EDU-SHIWEI]2021/01/29 - 15:00:35.469	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/core/server.go:28	server run success on 	{"address": ":8080"}
