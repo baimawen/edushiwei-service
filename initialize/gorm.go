@@ -3,6 +3,7 @@ package initialize
 import (
 	"edushiwei-service/global"
 	"edushiwei-service/initialize/internal"
+	"edushiwei-service/model"
 	"os"
 
 	"go.uber.org/zap"
@@ -85,7 +86,65 @@ func gormConfig(mod bool) *gorm.Config {
 //@description: 注册数据库表专用
 //@param: db *gorm.DB
 func MysqlTables(db *gorm.DB) {
-	err := db.AutoMigrate()
+	err := db.AutoMigrate(
+		model.Accout{},
+		model.Area{},
+		model.Audit{},
+		model.Category{},
+		model.ChapterLike{},
+		model.ChapterLive{},
+		model.ChapterRead{},
+		model.ChapterResource{},
+		model.ChapterUser{},
+		model.ChapterVod{},
+		model.Chapter{},
+		model.Content{},
+		model.Consult{},
+		model.ConsultLike{},
+		model.Course{},
+		model.CourseCategory{},
+		model.CourseFavorite{},
+		model.CoursePackage{},
+		model.CourseRating{},
+		model.CourseRelated{},
+		model.CourseTopic{},
+		model.CourseUser{},
+		model.Danmu{},
+		model.Help{},
+		model.ImFriendGroup{},
+		model.ImFriendUser{},
+		model.ImGroup{},
+		model.ImGroupUser{},
+		model.ImMessage{},
+		model.ImNotice{},
+		model.ImUser{},
+		model.Learning{},
+		model.Nav{},
+		model.Online{},
+		model.Order{},
+		model.OrderStatus{},
+		model.Package{},
+		model.Page{},
+		model.RefoundStatus{},
+		model.Refund{},
+		model.Resource{},
+		model.Review{},
+		model.ReviewLike{},
+		model.Reward{},
+		model.Role{},
+		model.Setting{},
+		model.Slide{},
+		model.Task{},
+		model.Topic{},
+		model.Trade{},
+		model.TradeStatus{},
+		model.Upload{},
+		model.UserSession{},
+		model.UserToken{},
+		model.User{},
+		model.Vip{},
+		model.WechatSubscribe{},
+	)
 	if err != nil {
 		global.COURSE_LOG.Error("register table failed", zap.Any("err", err))
 		os.Exit(0)

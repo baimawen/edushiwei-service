@@ -10,10 +10,10 @@ import (
 //@function: FindUserByUuid
 //@description: 通过uuid获取用户信息
 //@param: uuid string
-//@return: err error, user *model.SysUser
+//@return: err error, user *model.User
 
-func FindUserByUuid(uuid string) (err error, user *model.SysUser) {
-	var u model.SysUser
+func FindUserByUuid(uuid string) (err error, user *model.User) {
+	var u model.User
 	if err = global.COURSE_DB.Where("`uuid` = ?", uuid).First(&u).Error; err != nil {
 		return errors.New("用户不存在"), &u
 	}

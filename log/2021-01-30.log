@@ -1,0 +1,6 @@
+[EDU-SHIWEI]2021/01/30 - 00:48:30.456	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/gorm.go:152	register table success
+[EDU-SHIWEI]2021/01/30 - 00:48:30.500	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:17	use middlerware logger
+[EDU-SHIWEI]2021/01/30 - 00:48:30.501	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:20	use middleware cors
+[EDU-SHIWEI]2021/01/30 - 00:48:30.536	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:22	register swagger handler
+[EDU-SHIWEI]2021/01/30 - 00:48:30.536	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/initialize/router.go:33	router register success
+[EDU-SHIWEI]2021/01/30 - 00:48:30.544	[34minfo[0m	E:/golang-workspace/src/edushiwei-service/core/server.go:28	server run success on 	{"address": ":8080"}
